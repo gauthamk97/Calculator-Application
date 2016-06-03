@@ -16,6 +16,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var AnswerLabel: UILabel!
     @IBOutlet weak var CButton: UIButton!
+    @IBOutlet weak var DivButton: UIButton!
+    @IBOutlet weak var MultButton: UIButton!
+    @IBOutlet weak var SubButton: UIButton!
+    @IBOutlet weak var AddButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +38,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func OnClickChangeSign(sender: AnyObject) {
+    
     }
    
     @IBAction func OnClickPerc(sender: AnyObject) {
@@ -41,11 +46,23 @@ class ViewController: UIViewController {
     }
 
     @IBAction func OnClickDiv(sender: AnyObject) {
+        //Assigns Operator as Division for OnClickEquals function
         self.PrevOperator = "/"
         
+        //Takes value for Num1
         self.Num1 = Double(AnswerLabel.text!)!
         
+        //Resets Label
         AnswerLabel.text = "0"
+        
+        //Division button is now red
+        DivButton.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        
+        //Other 3 buttons are white
+        AddButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        SubButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        MultButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+    
     }
 
     @IBAction func OnClickMult(sender: AnyObject) {
@@ -54,6 +71,12 @@ class ViewController: UIViewController {
         self.Num1 = Double(AnswerLabel.text!)!
         
         AnswerLabel.text = "0"
+        
+        MultButton.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        
+        AddButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        SubButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        DivButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
     }
     
     @IBAction func OnClickSub(sender: AnyObject) {
@@ -62,6 +85,12 @@ class ViewController: UIViewController {
         self.Num1 = Double(AnswerLabel.text!)!
         
         AnswerLabel.text = "0"
+        
+        SubButton.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        
+        AddButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        MultButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        DivButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
     }
     
     @IBAction func OnClickAdd(sender: AnyObject) {
@@ -70,6 +99,12 @@ class ViewController: UIViewController {
         self.Num1 = Double(AnswerLabel.text!)!
         
         AnswerLabel.text = "0"
+        
+        AddButton.setTitleColor(UIColor.redColor(), forState: UIControlState.Normal)
+        
+        SubButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        MultButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        DivButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
     }
     
     @IBAction func OnClick0(sender: AnyObject) {
@@ -84,12 +119,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func OnClick1(sender: AnyObject) {
+        
+        //In case this is the first number you enter
         if AnswerLabel.text == "0" {
             AnswerLabel.text = ""
         }
         
+        //Appending 0 in the label
         AnswerLabel.text = (AnswerLabel.text ?? "") + "1"
         
+        //Changes AC to C
         CButton.setTitle("C", forState: UIControlState.Normal)
     }
     
@@ -186,6 +225,11 @@ class ViewController: UIViewController {
             case "/" : self.Answer = self.Num1 / self.Num2
         default : break;
         }
+        
+        AddButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        SubButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        MultButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        DivButton.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         
         AnswerLabel.text = "\(self.Answer)"
         

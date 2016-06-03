@@ -741,8 +741,12 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="AddButton" destination="zn5-MJ-iU0" id="gJ1-Fy-WUh"/>
                         <outlet property="AnswerLabel" destination="kVu-xB-IW5" id="Jt9-B5-6K0"/>
                         <outlet property="CButton" destination="cHV-kP-rEz" id="c0b-0i-te3"/>
+                        <outlet property="DivButton" destination="Dch-1W-SAF" id="pcB-2Z-OCG"/>
+                        <outlet property="MultButton" destination="qyM-ep-D2Q" id="ZqM-dO-h93"/>
+                        <outlet property="SubButton" destination="8Ph-Jq-aBY" id="d2O-1Y-WZ0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
