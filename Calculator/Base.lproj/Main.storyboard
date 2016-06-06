@@ -116,7 +116,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClickDiv:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w2V-sg-fLU"/>
+                                    <action selector="OnClickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yPr-Nb-Beb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgG-Ui-y1S">
@@ -140,7 +140,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick9:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OPv-eP-qg6"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Ll-0q-Yyc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyM-ep-D2Q">
@@ -164,7 +164,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClickMult:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hxi-I5-C76"/>
+                                    <action selector="OnClickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3SH-X1-2TF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ph-Jq-aBY">
@@ -188,7 +188,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClickSub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lqi-hi-dKf"/>
+                                    <action selector="OnClickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9zZ-f3-Hff"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ykR-JW-Csf">
@@ -212,7 +212,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QDl-Xv-TFI"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j0H-j6-Q0I"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zn5-MJ-iU0">
@@ -236,7 +236,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClickAdd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vWs-00-6Ur"/>
+                                    <action selector="OnClickOperator:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wbJ-3v-0RO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfP-1o-B3f">
@@ -260,7 +260,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClickDec:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gzg-7m-SEG"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dPu-OH-Gp6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vkh-rJ-znA">
@@ -308,7 +308,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XNO-XB-EkF"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OdJ-3B-VzD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4O-c3-tic">
@@ -332,7 +332,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vmg-nq-LiG"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QQQ-En-CFd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ntp-9o-qjv">
@@ -356,7 +356,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KdS-Ch-Pje"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6W-Hl-gWQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtL-be-vnz">
@@ -380,7 +380,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U6I-d2-Fuu"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iVa-LU-S9P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRW-PU-Skr">
@@ -404,7 +404,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick5:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h9h-wK-nzy"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Omz-0u-fE6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd0-sV-Gi5">
@@ -428,7 +428,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J13-gW-lzE"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FDw-c9-ZyT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zc6-JC-PEW">
@@ -452,7 +452,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CVT-TW-Nh6"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pWg-3o-ehC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1I-2H-aLc">
@@ -476,7 +476,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="OnClick3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XBq-ga-jTp"/>
+                                    <action selector="OnClickNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wRe-W2-Eea"/>
                                 </connections>
                             </button>
                         </subviews>
