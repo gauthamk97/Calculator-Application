@@ -46,12 +46,18 @@ class ViewController: UIViewController {
             self.Num1 = 0
             self.Num2 = 0
             
+            self.JustClickedEquals = false
+            self.JustClickedOperator = false
+            
             //Resets the operator to white
             self.ResetOperatorColortoWhite()
         }
         
         
         if CButton.currentTitle! == "C" {
+            
+            //self.JustClickedOperator = true
+            //self.JustClickEquals = false
             
             AnswerLabel.text = "0"
             
